@@ -8,4 +8,6 @@ COPY src/ ./
 
 EXPOSE 3032
 
+RUN npm install
+
 ENTRYPOINT ["node", "main.js"]
